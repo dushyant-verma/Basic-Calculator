@@ -52,3 +52,53 @@ body {
 .btn:active {
     background-color: #222;
 }
+
+
+/* Basic css on div  */
+
+/* Apply gradient overlay to the image on hover */
+.Blue_section_three_col .blue-page-cards:hover .fam .familysvg {
+    filter: brightness(0.8); /* Dim the image */
+    background: linear-gradient(45deg, rgba(83, 136, 240, 0.5), rgba(0, 0, 0, 0.5));
+
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+.Blue_section_three_col .blue-page-cards:hover .col-lg-12.d-flex.cards-heading {
+   
+    background-color: #5388F0;
+  
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+
+.knowledge_center_section_one .blue-page-cards{
+    border: 2px solid #5388F0; /* White border */
+      background-color: white;
+	    margin: 10px 0px;
+	outline: none;
+	text-align: right;
+	position: relative;
+}
+
+.Blue_section_three_col .blue-page-cards:hover .col-lg-12.d-flex.cards-heading a{
+  color: white;
+
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Ensuring hover leaves the original styles intact */
+.Blue_section_three_col .blue-page-cards .fam .familysvg {
+    filter: none;
+    transition: all 0.3s ease-in-out;
+}
+/* Hover effect for the complete card */
+
+.Blue_section_three_col .blue-page-cards:hover  .Blue_section_three_col .splide__slide a{
+	color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+	
+	
+}
+
